@@ -1,14 +1,12 @@
-package br.com.alura.conversor.model.entity;
+package br.com.alura.conversor.model.entities;
 
-import lombok.AllArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
-@AllArgsConstructor
 @Data
-public class CurrencyConverter {
-    
+public class CurrencyData {
+
     private String code;
     private String codein;
     private String name;
@@ -19,5 +17,7 @@ public class CurrencyConverter {
     private String bid;
     private String ask;
     private String timestamp;
+    
+    @JsonProperty("create_date")
     private String createDate;
 }
