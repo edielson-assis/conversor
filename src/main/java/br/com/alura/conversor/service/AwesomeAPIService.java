@@ -16,12 +16,18 @@ import br.com.alura.conversor.service.exception.CurrencyConverterException;
  * Client HTTP, criado via <b>Apache HttpClient</b>, para o consumo da API do
  * <b>AwesomeAPI</b>.
  * 
- * @see <a href="https://economia.awesomeapi.com.br/last/">AwesomeAPI</a>
+ * @see <a href="https://docs.awesomeapi.com.br/api-de-moedas">AwesomeAPI</a>
  * 
  * @author edielson-assis
  */
 public class AwesomeAPIService {
 
+	/** 
+	 * Faz a chamada HTTP, via método Get, para API de moedas.
+	 * 
+	 * @param rate
+	 * @return CurrencyConverter
+	 */
 	public static final CurrencyConverter getCurrencyConverter(String rate) {
 
 		CurrencyConverter currencyConverter = null;

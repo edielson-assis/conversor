@@ -5,13 +5,15 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
+import javax.swing.JOptionPane;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import br.com.alura.conversor.model.entities.CurrencyData;
 import lombok.Data;
 
 /**
- * Classe utilizada para serializar e converter as moedas.
+ * Serializa e converte as moedas.
  * 
  * @author edielson-assis
  */
@@ -57,10 +59,10 @@ public class CurrencyConverter {
     public void printCurrency(CurrencyConverter obj, BigDecimal amount) {
         CurrencyData rate = rate(obj);
         if (rate != null) {
-            String currency = rate.getCode();
+            String currency = rate.getCodein();
             String symbol = getCurrencySymbol(currency);
             Double exchangeRate = exchangeRate(amount);
-            System.out.println(currency.concat(" ").concat(symbol).concat(" ") + exchangeRate);
+            JOptionPane.showMessageDialog(null, "O valor da conversão é de: ".concat(currency).concat(" ").concat(symbol).concat(" ") + String.format("%.2f", exchangeRate));
         }
     }
 
@@ -73,10 +75,23 @@ public class CurrencyConverter {
         return rate(this);
     }
     
+    
+    /** 
+     * Realiza a conversão da moeda, com base na taxa de câmbio e na quantidade.
+     * 
+     * @param amount
+     * @return Double
+     */
     private Double exchangeRate(BigDecimal amount) {
         return amount.multiply(new BigDecimal(getRate().getBid())).doubleValue();
     }  
 
+    /**
+     * Gera o Getter necessário, com base no tipo de conversão selecionado.
+     * 
+     * @param currency
+     * @return CurrencyData
+     */
     private CurrencyData rate(CurrencyConverter currency) {
         Map<String, Function<CurrencyConverter, CurrencyData>> rateMap = new HashMap<>();
         rateMap.put("USDBRL", CurrencyConverter::getUsdBrl);
@@ -99,6 +114,12 @@ public class CurrencyConverter {
         return null; 
     }
     
+    /**
+     * Gera o símbolo da moeda, com base no tipo de conversão selecionado.
+     * 
+     * @param currency
+     * @return String
+     */
     private String getCurrencySymbol(String currency) {
         Map<String, String> symbolMap = new HashMap<>();
         symbolMap.put("USD", "$");

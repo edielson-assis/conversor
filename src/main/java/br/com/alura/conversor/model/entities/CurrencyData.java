@@ -4,6 +4,11 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.Data;
 
+/**
+ * Recebe os dados retornados da API de moedas.
+ * 
+ * @author edielson-assis
+ */
 @Data
 public class CurrencyData {
 
