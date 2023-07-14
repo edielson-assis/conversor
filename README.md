@@ -27,7 +27,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-O projeto do Conversor é uma aplicação Java que oferece duas funcionalidades principais: conversão de moedas e conversão de temperaturas. Com uma interface intuitiva, os usuários podem facilmente realizar conversões entre diferentes moedas e escalas de temperatura. O projeto ainda está na fase inicial e novas funcionalidades serão adicionadas no futuro, visando oferecer uma experiência ainda mais abrangente e prática. 
+O projeto do Conversor é uma aplicação Java que oferece duas funcionalidades principais: conversão de moedas e conversão de temperaturas. Com uma interface intuitiva, os usuários podem facilmente realizar conversões entre diferentes moedas e escalas de temperatura. O projeto ainda está na fase inicial e novas funcionalidades serão adicionadas no futuro, visando oferecer uma experiência ainda mais abrangente e prática. O conversor de moedas utiliza a API da <a href="https://docs.awesomeapi.com.br/api-de-moedas">AwesomeAPI.</a>
 </p>
 
 ## Funcionalidades
