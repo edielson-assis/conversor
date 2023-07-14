@@ -1,0 +1,59 @@
+@options
+@packages
+-classpath
+'C:/Users/Edielson Assis/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar;C:/Users/Edielson Assis/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar;C:/Users/Edielson Assis/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar;C:/Users/Edielson Assis/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;C:/Users/Edielson Assis/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar;C:/Users/Edielson Assis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar;C:/Users/Edielson Assis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar;C:/Users/Edielson Assis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'D:/Codigos/ONE/conversor/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'D:/Codigos/ONE/conversor/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'conversor 1.0 API'
+-use
+-version
+-windowtitle
+'conversor 1.0 API'
+br.com.alura.conversor
+br.com.alura.conversor.model
+br.com.alura.conversor.model.entities
+br.com.alura.conversor.model.gui
+br.com.alura.conversor.service
+br.com.alura.conversor.service.exception
+C:\Users\Edielson Assis\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar = 1688443165785
+C:\Users\Edielson Assis\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar = 1688663701555
+C:\Users\Edielson Assis\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar = 1688663701533
+C:\Users\Edielson Assis\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar = 1688663701464
+C:\Users\Edielson Assis\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar = 1687463108363
+C:\Users\Edielson Assis\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar = 1688655938345
+C:\Users\Edielson Assis\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar = 1688655938361
+C:\Users\Edielson Assis\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar = 1688655938431
+D:\Codigos\ONE\conversor\src\main\java = 1688440739827
+D:\Codigos\ONE\conversor\target\site\apidocs\allclasses-index.html = 1689301872913
+D:\Codigos\ONE\conversor\target\site\apidocs\allpackages-index.html = 1689301872917
+D:\Codigos\ONE\conversor\target\site\apidocs\element-list = 1689301872646
+D:\Codigos\ONE\conversor\target\site\apidocs\help-doc.html = 1689301873025
+D:\Codigos\ONE\conversor\target\site\apidocs\index-all.html = 1689301873003
+D:\Codigos\ONE\conversor\target\site\apidocs\index.html = 1689301872889
+D:\Codigos\ONE\conversor\target\site\apidocs\jquery-ui.overrides.css = 1689301873075
+D:\Codigos\ONE\conversor\target\site\apidocs\member-search-index.js = 1689301872925
+D:\Codigos\ONE\conversor\target\site\apidocs\module-search-index.js = 1689301872922
+D:\Codigos\ONE\conversor\target\site\apidocs\overview-summary.html = 1689301873019
+D:\Codigos\ONE\conversor\target\site\apidocs\overview-tree.html = 1689301872880
+D:\Codigos\ONE\conversor\target\site\apidocs\package-search-index.js = 1689301872924
+D:\Codigos\ONE\conversor\target\site\apidocs\script.js = 1689301873031
+D:\Codigos\ONE\conversor\target\site\apidocs\search.js = 1689301873034
+D:\Codigos\ONE\conversor\target\site\apidocs\serialized-form.html = 1689301872776
+D:\Codigos\ONE\conversor\target\site\apidocs\stylesheet.css = 1689301873029
+D:\Codigos\ONE\conversor\target\site\apidocs\tag-search-index.js = 1689301872926
+D:\Codigos\ONE\conversor\target\site\apidocs\type-search-index.js = 1689301872924
