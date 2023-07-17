@@ -18,7 +18,7 @@
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Layout da Aplicação](#layout-da-aplicação)
+:small_blue_diamond: [Layout da Aplicação](#layout-da-aplicação-dash)
 
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
@@ -28,6 +28,8 @@
 
 <p align="justify">
 O projeto do Conversor é uma aplicação Java que oferece duas funcionalidades principais: conversão de moedas e conversão de temperaturas. Com uma interface intuitiva, os usuários podem facilmente realizar conversões entre diferentes moedas e escalas de temperatura. O projeto ainda está na fase inicial e novas funcionalidades serão adicionadas no futuro, visando oferecer uma experiência ainda mais abrangente e prática. O conversor de moedas utiliza a API da <a href="https://docs.awesomeapi.com.br/api-de-moedas">AwesomeAPI.</a>
+
+ Dentro da pasta target, em site/apidocs, contém toda a documentação do conversor, com explicações detalhadas de todas as classes e métodos. Basta acessar o arquivo <b>index.html</b> em um navegador.
 </p>
 
 ## Funcionalidades
@@ -50,7 +52,7 @@ O projeto do Conversor é uma aplicação Java que oferece duas funcionalidades 
  
 ## Como rodar a aplicação :arrow_forward:
 
-Abra o terminal do git bash, na pasta onde deseja salvar o projeto, e digite o seguinte comando: 
+Faça um fork do projeto, após isso, abra o terminal do git bash, na pasta onde deseja salvar o projeto, e digite o seguinte comando: 
 
 ```
 git clone git@github.com:edielson-assis/conversor.git
@@ -72,6 +74,17 @@ Após isso, abra o projeto na IDE de sua preferência e execute-o a partir do m�
 :memo: Conversor de distância 
 
 :memo: Conversor de datas 
+
+## Contribuindo 🤝
+
+<p>
+Este é um projeto open source, então contribua com ele.<br>
+Se te ajudei de alguma forma, ficarei feliz em saber. E caso você conheça alguém que se identifique com o conteúdo, não deixe de compartilhar.<br>
+<br>
+Se possível:<br>
+⭐️  Star o projeto<br>
+🐛 Encontrar e relatar issues<br>
+</p>
 
 ## Desenvolvedor :octocat:
 
